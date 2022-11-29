@@ -14,5 +14,9 @@ namespace exercicio1
         {
             Console.WriteLine("Som generico de animal");
         }
+        public virtual void Comer(double peso)
+        {
+            Console.WriteLine("Animal comeu " + peso*1.0 + " kg de ração");
+        }
     }
 }

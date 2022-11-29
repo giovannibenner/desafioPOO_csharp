@@ -11,5 +11,9 @@ namespace exercicio1
         {
             Console.WriteLine("Au au");
         }
+        public override void Comer(double peso)
+        {
+            Console.WriteLine("Cachorro comeu " + peso*2.0 + " kg de ração");
+        }
     }
 }
